@@ -1,0 +1,185 @@
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.profile h1 {
+  align-items: center;
+  font-weight: 700;
+  font-size: 40px;
+}
+.name {
+  text-decoration: underline;
+  transition: 3s;
+  /*background: linear-gradient(270deg, orange 10%, purple 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+}
+.profile-respond {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+.connect {
+  padding: 15px 30px;
+  border-radius: 50px;
+  background: linear-gradient(270deg, orange 10%, purple 100%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.resume {
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.connect:hover {
+  transform: scale(1.03);
+  border: 1.5px solid white;
+}
+.mainProfile {
+  width: 300px;
+  height: 300px;
+}
+.resume:hover {
+  transform: scale(1.03);
+  border: 1.5px solid orange;
+}
+@media (max-width: 768px) {
+  .profile {
+    gap: 10px;
+  }
+  .profile h1 {
+    align-items: center;
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .mainProfile {
+    width: 170px;
+    height: 170px;
+  }
+  .profile h2 {
+    font-size: 18px;
+  }
+  .profile h3 {
+    font-size: 12px;
+  }
+  .profile-respond {
+    font-size: 16px;
+    font-weight: 400;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .connect {
+    padding: 8px 15px;
+  }
+  .resume {
+    padding: 8px 15px;
+  }
+}
+.about {
+  margin: 25px 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.secondImage {
+  border-radius: 5%;
+  box-shadow: 0px 0px 5px white;
+  margin: 5px;
+  width: 310px;
+  height: 390px;
+}
+.about-details {
+  display: flex;
+  gap: 50px;
+}
+.bio {
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-weight: 400;
+  font-size: large;
+}
+.about-skills {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-skill {
+  display: flex;
+}
+.about-skill h3 {
+  min-width: 130px;
+}
+.about-skill hr {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background: linear-gradient(267deg, green 10%, orange 100%);
+}
+.about-skill:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.exSubTitle {
+  font-size: 20px;
+}
+.experience h2 {
+  background: linear-gradient(270deg, orange 60%, purple 90%);
+  background-clip: text;
+  font-size: 50px;
+  font-weight: 600;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 768px) {
+  .about {
+    margin: 12px 32px;
+  }
+  .secondImage {
+    margin: 5px;
+    width: 200px;
+    height: 240px;
+  }
+  .about-details {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+  .bio {
+    align-items: center;
+    gap: 10px;
+    font-weight: 200;
+    font-size: medium;
+  }
+  .about-skills {
+    margin: 15px 8px;
+    gap: 10px;
+  }
+  .about-skill h3 {
+    font-size: 16px;
+    min-width: 100px;
+  }
+  .experience h2 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .exSubTitle {
+    font-size: 18px;
+  }
+}
