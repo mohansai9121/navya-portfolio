@@ -5,16 +5,35 @@ import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div className="profile">
-      <h1>
-        I am <span className="name">Navya Sri,</span> from Dekalb
-      </h1>
-      <h2>SoftWare Developer</h2>
-      <h3>
-        Experience in designing, testing, and developing software solutions
-      </h3>
+    <div className="profile" id="home">
+      <div className="flip-box">
+        <div className="flip-box-inner">
+          <div className="front-view">
+            <h1>
+              I am <span className="name">Navya Sri,</span> from Dekalb
+            </h1>
+            <h2>SoftWare Developer</h2>
+            <h3>
+              Experience in designing, testing, and developing software
+              solutions
+            </h3>
+          </div>
+          <div className="back-view">
+            <h1>
+              Hi!, I am <span className="name">Navya Sri,</span> from Dekalb
+            </h1>
+            <h2>SoftWare Developer</h2>
+            <h4>
+              Possesses a deep understanding of web technologies and a proven
+              track record of delivering innovative business solutions. Thrives
+              in a fast-paced, high-energy environment, demonstrating a strong
+              willingness to undertake additional responsibilities.
+            </h4>
+          </div>
+        </div>
+      </div>
       <div className="profile-respond">
-        <div className="connect">
+        <div className="resume">
           <AnchorLink offset={50} href="#contact" className="anchor">
             Connect with me
           </AnchorLink>
@@ -39,8 +58,8 @@ const Profile = () => {
           <div>
             <img
               src={profile}
-              alt="Mohan Sai"
-              title="Mohan Sai"
+              alt="Navya Sri"
+              title="Navya Sri"
               className="secondImage"
             />
           </div>
@@ -58,46 +77,62 @@ const Profile = () => {
               </p>
             </div>
             <div className="about-skills">
-              <div className="about-skill">
-                <h3>Tableau</h3>
-                <hr width="90%" />
-                90%
-              </div>
-              <div className="about-skill">
-                <h3>JAVA</h3>
-                <hr width="80%" />
-                80%
-              </div>
-              <div className="about-skill">
-                <h3>MATLAB</h3>
-                <hr width="60%" />
-                60%
-              </div>
-              <div className="about-skill">
-                <h3>PowerBI</h3>
-                <hr width="70%" />
-                70%
-              </div>
-              <div className="about-skill">
-                <h3>Python</h3>
-                <hr width="90%" />
-                90%
+              <div className="about-skills1">
+                <h3 style={{ textDecoration: "underline" }}>
+                  Programming Languages & Frameworks
+                </h3>
+                <div className="about-skill">
+                  <h4>Python</h4>
+                  <h4>Tableau</h4>
+                  <h4>SQL</h4>
+                  <h4>R</h4>
+                  <h4>Java</h4>
+                  <h4>C</h4>
+                  <h4>Informatica</h4>
+                  <h4>Matlab</h4>
+                  <h4>Power BI</h4>
+                </div>
               </div>
             </div>
-            <br></br>
-            <div className="experience">
-              <div>
-                <h2>2+</h2>
-                <p className="exSubTitle">
-                  Years experience as a Software Developer
-                </p>
-              </div>
-              <hr />
-              <div>
-                <h2>20+</h2>
-                <p className="exSubTitle">Managed & Configured Oracle apps</p>
-              </div>
+          </div>
+        </div>
+        <div className="about-skills2">
+          <div className="about-skills21">
+            <h3 style={{ textAlign: "center", textDecoration: "underline" }}>
+              SoftWare & Tools
+            </h3>
+            <div className="about-skill22">
+              <h4>MS Excel</h4>
+              <h4>Linux</h4>
+              <h4>Windows</h4>
             </div>
+          </div>
+          <div className="about-skills21">
+            <h3 style={{ textAlign: "center", textDecoration: "underline" }}>
+              Core Competencies
+            </h3>
+            <div className="about-skill22">
+              <h4>Robotics</h4>
+              <h4>Data Structures</h4>
+              <h4>Linear Algebra</h4>
+              <h4>Advanced Excel</h4>
+              <h4>Project Management</h4>
+              <h4>Team Collaboration</h4>
+            </div>
+          </div>
+        </div>
+        <br></br>
+        <div className="experience">
+          <div>
+            <h2>2+</h2>
+            <p className="exSubTitle">
+              Years experience as a Software Developer
+            </p>
+          </div>
+          <hr />
+          <div>
+            <h2>20+</h2>
+            <p className="exSubTitle">Managed & Configured Oracle apps</p>
           </div>
         </div>
       </div>
