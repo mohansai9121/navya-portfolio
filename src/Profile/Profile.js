@@ -43,7 +43,8 @@ const Profile = () => {
             href="https://drive.google.com/file/d/1iQQJhSw4-8hncd0LZZ1Wpfv3x5QUwQ9e/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            style={{ textDecoration: "none", color: "white" }}
+            className="anchor"
+            style={{ textDecoration: "none" }}
           >
             My Resume
           </a>
@@ -65,38 +66,121 @@ const Profile = () => {
           </div>
           <div>
             <div className="bio">
-              <p>
-                Proficient software developer with experience in designing,
-                developing, and deploying high-quality web and mobile
-                applications. Strong expertise in multiple programming
-                languages, frameworks, and tools, with a focus on delivering
-                efficient, scalable solutions. Adept at collaborating with
-                cross-functional teams to drive projects from concept to
-                completion, with a keen eye for detail and a passion for
-                continuous learning
-              </p>
-            </div>
-            <div className="about-skills">
-              <div className="about-skills1">
-                <h3 style={{ textDecoration: "underline" }}>
-                  Programming Languages & Frameworks
-                </h3>
-                <div className="about-skill">
-                  <h4>Python</h4>
-                  <h4>Tableau</h4>
-                  <h4>SQL</h4>
-                  <h4>R</h4>
-                  <h4>Java</h4>
-                  <h4>C</h4>
-                  <h4>Informatica</h4>
-                  <h4>Matlab</h4>
-                  <h4>Power BI</h4>
+              <div className="flip-box1">
+                <div className="flip-box-inner">
+                  <div className="front-view">
+                    <span
+                      style={{
+                        fontSize: "25px",
+                        fontWeight: "800",
+                        textDecoration: "underline",
+                      }}
+                    >
+                      Education
+                    </span>
+                    <ul>
+                      <li style={{ listStyleType: "square" }}>
+                        <span>
+                          <span style={{ fontSize: "20px", fontWeight: "600" }}>
+                            Master of Science in Computer Science,
+                          </span>
+                          Northern Illinois University, IL
+                        </span>
+                      </li>
+                      <li style={{ listStyleType: "square" }}>
+                        <span>
+                          <span style={{ fontSize: "20px", fontWeight: "600" }}>
+                            Bachelor of Technology in Electronics and
+                            Communication Engineering,
+                          </span>{" "}
+                          KLU, India
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="back-view">
+                    <p>
+                      Proficient software developer with experience in
+                      designing, developing, and deploying high-quality web and
+                      mobile applications. Strong expertise in multiple
+                      programming languages, frameworks, and tools, with a focus
+                      on delivering efficient, scalable solutions. Adept at
+                      collaborating with cross-functional teams to drive
+                      projects from concept to completion, with a keen eye for
+                      detail and a passion for continuous learning
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
+            <br />
+            <h3
+              style={{
+                textDecoration: "underline",
+                textAlign: "center",
+                fontSize: "22px",
+              }}
+            >
+              Skills
+            </h3>
+            <div className="about-skills">
+              <ul>
+                <li>
+                  <span style={{ fontSize: "18px", fontWeight: "700" }}>
+                    Programming Languages & Frameworks:
+                  </span>{" "}
+                  <span style={{ fontSize: "18px" }}>
+                    Python, Tableau, SQL, R, Java, C, Informatica, MATLAB, Power
+                    BI, Azure Data Factory(ADF)
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <span style={{ fontSize: "18px", fontWeight: "700" }}>
+                    Software & Tools:
+                  </span>{" "}
+                  <span style={{ fontSize: "18px" }}>
+                    MS Excel (Pivot/VLOOKUP/VBA), Linux, Windows
+                  </span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <span style={{ fontSize: "18px", fontWeight: "700" }}>
+                    Core Competencies:
+                  </span>{" "}
+                  <span style={{ fontSize: "18px" }}>
+                    obotics, Data Structures and Algorithms, Linear Algebra,
+                    Advanced Excel, Project Management, Data Analysis, Complex
+                    Problem Solving, Team Collaboration
+                  </span>
+                </li>
+              </ul>
+              {/*<div className="about-skills1">
+                <h4>Python</h4>
+                <h4>Tableau</h4>
+                <h4>ReactJS</h4>
+                <h4>Java</h4>
+              </div>
+              <hr />
+              <div className="about-skills1">
+                <h4>Power BI</h4>
+                <h4>Linux</h4>
+                <h4>Matlab</h4>
+                <h4>Power BI</h4>
+              </div>
+              <hr />
+              <div className="about-skills1">
+                <h4>Robotics</h4>
+                <h4>Data Structures</h4>
+                <h4>Linear Algebra</h4>
+                <h4>Data Analysis</h4>
+              </div>*/}
+            </div>
           </div>
         </div>
-        <div className="about-skills2">
+        {/*<div className="about-skills2">
           <div className="about-skills21">
             <h3 style={{ textAlign: "center", textDecoration: "underline" }}>
               SoftWare & Tools
@@ -120,19 +204,23 @@ const Profile = () => {
               <h4>Team Collaboration</h4>
             </div>
           </div>
-        </div>
+        </div>*/}
         <br></br>
         <div className="experience">
           <div>
-            <h2>2+</h2>
+            <h2>
+              2+<span style={{ fontSize: "15px" }}>years</span>
+            </h2>
             <p className="exSubTitle">
               Years experience as a Software Developer
             </p>
           </div>
           <hr />
           <div>
-            <h2>20+</h2>
-            <p className="exSubTitle">Managed & Configured Oracle apps</p>
+            <h2>
+              20+<span style={{ fontSize: "15px" }}>apps</span>
+            </h2>
+            <p className="exSubTitle">Managed & Configured in Oracle</p>
           </div>
         </div>
       </div>

@@ -64,7 +64,7 @@ const Contact = () => {
               className="location"
               rel="noreferrer"
             >
-              My LinkedIn Profile
+              <span style={{ color: "black" }}> My LinkedIn Profile</span>
             </a>
           </div>
           <div className="contact">
@@ -76,12 +76,12 @@ const Contact = () => {
               style={{ backgroundColor: "white" }}
             />{" "}
             <a
-              href="https://github.com/mohansai9121"
+              href="https://github.com/navya9989"
               target="_blank"
               className="location"
               rel="noreferrer"
             >
-              GitHub profile
+              <span style={{ color: "black" }}>GitHub profile</span>
             </a>
           </div>
           <div className="contact">
@@ -93,7 +93,7 @@ const Contact = () => {
               rel="noreferrer"
             >
               {" "}
-              Dekalb, IL, USA.
+              <span style={{ color: "black" }}>Dekalb, IL, USA.</span>
             </a>
           </div>
         </div>

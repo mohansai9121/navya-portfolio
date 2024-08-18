@@ -54,7 +54,7 @@ const Navbar = () => {
         )}
         <li className="navmenu-component" onClick={() => setMenu("home1")}>
           <AnchorLink href="#home" className="anchor">
-            Home
+            <span style={{ color: "white" }}>Home</span>
           </AnchorLink>
           {menu === "home1" ? (
             <img src={underline} alt="" width="auto" height={15} />
@@ -64,7 +64,7 @@ const Navbar = () => {
         </li>
         <li className="navmenu-component" onClick={() => setMenu("about1")}>
           <AnchorLink href="#about" offset={50} className="anchor">
-            About me
+            <span style={{ color: "white" }}>About me</span>
           </AnchorLink>
           {menu === "about1" ? (
             <img src={underline} alt="" width="auto" height={15} />
@@ -74,7 +74,7 @@ const Navbar = () => {
         </li>
         <li className="navmenu-component" onClick={() => setMenu("works1")}>
           <AnchorLink href="#works" offset={50} className="anchor">
-            My works
+            <span style={{ color: "white" }}>My works</span>
           </AnchorLink>
           {menu === "works1" ? (
             <img src={underline} alt="" width="auto" height={15} />
@@ -84,7 +84,7 @@ const Navbar = () => {
         </li>
         <li className="navmenu-component" onClick={() => setMenu("services1")}>
           <AnchorLink href="#services" offset={50} className="anchor">
-            My Services
+            <span style={{ color: "white" }}>My Services</span>
           </AnchorLink>
           {menu === "services1" ? (
             <img src={underline} alt="" width="auto" height={15} />
@@ -94,7 +94,7 @@ const Navbar = () => {
         </li>
         <li className="navmenu-component" onClick={() => setMenu("contact1")}>
           <AnchorLink href="#contact" offset={50} className="anchor">
-            Contact
+            <span style={{ color: "white" }}>Contact</span>
           </AnchorLink>
           {menu === "contact1" ? (
             <img src={underline} alt="" width="auto" height={15} />
