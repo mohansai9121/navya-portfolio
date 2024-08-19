@@ -28,6 +28,8 @@ const Profile = () => {
               track record of delivering innovative business solutions. Thrives
               in a fast-paced, high-energy environment, demonstrating a strong
               willingness to undertake additional responsibilities.
+              <br />
+              <br />
             </h4>
           </div>
         </div>
@@ -84,7 +86,9 @@ const Profile = () => {
                           <span style={{ fontSize: "20px", fontWeight: "600" }}>
                             Master of Science in Computer Science,
                           </span>
-                          Northern Illinois University, IL
+                          <span style={{ fontWeight: "400" }}>
+                            Northern Illinois University, IL
+                          </span>
                         </span>
                       </li>
                       <li style={{ listStyleType: "square" }}>
@@ -93,13 +97,13 @@ const Profile = () => {
                             Bachelor of Technology in Electronics and
                             Communication Engineering,
                           </span>{" "}
-                          KLU, India
+                          <span style={{ fontWeight: "400" }}>KLU, India</span>
                         </span>
                       </li>
                     </ul>
                   </div>
                   <div className="back-view">
-                    <p>
+                    <p style={{ fontWeight: "400" }}>
                       Proficient software developer with experience in
                       designing, developing, and deploying high-quality web and
                       mobile applications. Strong expertise in multiple

@@ -113,7 +113,7 @@
     height: 30px;
     border-radius: 5px;
     margin: 5px;
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: 300;
   }
@@ -121,12 +121,12 @@
     border-radius: 5px;
     min-height: 80px;
     margin: 5px 10px 8px 1px;
-    color: white;
+    color: black;
   }
   .submit {
     width: 150px;
     height: 30px;
-    border: 1px solid white;
+    border: 1px solid gray;
     transition: 0.3s;
   }
 }
